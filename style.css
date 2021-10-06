@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+body{
+    
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #E0E8FF;
+    padding: 20px;
+
+
+    line-height: 1.4rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    position: relative;
+
+
+}
+
+h2, h3 {
+    color: #212646;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+main{
+    background: #fff;
+    margin:50px auto;
+    max-width: 350px;
+    
+
+    border-radius: 23px;
+}
+main img {
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.content{
+
+    margin: 0px auto;
+    max-width: 300px;
+    
+    text-align: center;
+}
+p{
+    color:#8B8D9A;
+}
+.content h2{
+    margin: 15px;
+    font-weight: 700;
+    color: #212646;
+}
+
+.c2{
+    background:#F8F9FE;;
+    padding: 8px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-top:20px;
+    
+}
+.c2 a{
+    color:#382AE1; 
+}
+.c2 a:hover {
+    text-decoration: none;
+    color:#9C97DC;
+}
+
+.c2-item{
+    align-items: center;
+    gap:20px;
+    justify-content: space-between;
+    display: flex;   
+    
+    
+}
+
+.button{
+    border-radius: 5px;
+    border-style: none;
+    background:#382AE1;
+    color: #fff;
+    max-width: 300px;
+    display: block;
+    padding: 8px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.button:hover{
+    background:#766CF1;
+}
+.cancel-order a{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #717B9E;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 15px;
+    
+}
+.cancel-order a:hover{
+    color: #4E5773;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
